@@ -1,0 +1,353 @@
+/* Jack Alexander Scott // Student ID: 15417471 */
+
+html{
+  text-align: center;
+}
+body{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-size: 1600px 1000px;
+}
+
+.wrap{
+  width:800px;
+  margin: 0 auto;
+}
+
+ul
+{
+  align-items: center;
+}
+
+head
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  color: #c1c1c1;
+}
+
+.name
+{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.name2
+{
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+.MyPortfolio
+{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 3px 3px black;
+}
+
+.MyPortfolio2
+{
+color: black;
+text-shadow: 2px 2px white;
+}
+
+.clicklinks
+{
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.more
+{
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+h1
+{
+  font-family: 'Special Elite',cursive;
+  float: auto;
+}
+
+/*-NAVBAR-*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+
+}
+ul.nav li:last-child{
+  border-right: none;
+  float: right;
+  padding: 0;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+ul.nav li a:hover:not(.active) {background-color: #a1c1c1;}
+ul.nav li a.active {background-color: #999594;}
+li.right {float: right;}
+
+@media screen and (max-width: 600px){
+  ul.nav li.right,
+  ul.nav li {float: none;}
+}
+/*-end-of-navbar-*/
+
+div.profile
+{
+  border-radius: 50%;
+}
+
+.propic
+{
+  border-radius: 50%;
+}
+
+.propic img:hover
+{
+  transform: scale(1.20);
+}
+
+div.profile img:hover
+{
+  transform: scale(1.10);
+}
+
+.ColButton
+{
+  font-size: 30px;
+  color: green;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.AboutButton
+{
+  font-size: 30px;
+  color: blue;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.ContactButton
+{
+  font-size: 30px;
+  color: yellow;
+  text-shadow: 3px 3px black;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+
+
+
+
+div.description
+{
+  word-wrap: break-word;
+  font-size: 20px;
+  color: white;
+  text-shadow: 3px 3px black;
+  width: 100%;
+  height: 60%;
+}
+
+div.description2
+{
+  word-wrap: break-word;
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 2px white;
+  width: 100%;
+  height: 60%;
+}
+
+div.description3
+{
+  word-wrap: break-word;
+  font: bold;
+  font-size: 20px;
+  color: black;
+  text-shadow: 2px 2px white;
+  width: 100%;
+  height: 60%;
+}
+
+
+/*title*/
+.name u{
+  font-size: 40px;
+  color: #050505;
+}
+.title{
+  font-size: 30px;
+  color: #050505;
+}
+/*end of*/
+
+/*portfolio links*/
+/*folio1*/
+.portfolio-item1 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+	.portfolio-item1 p.btn {
+		margin: 0;
+	}
+	.portfolio-item1 p.btn a {
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 183px;
+    height: 29px;
+    padding: 7px 0 0 0;
+		font-weight: bold;
+    text-transform: uppercase;
+		text-decoration: none;
+	}
+
+  body.collectionbg
+  {
+    background-color: black;
+  }
+
+.floatimage
+{
+  width: 350px;
+  height: 250px;
+
+}
+
+.floatimage img:hover
+{
+  transform: scale(1.10);
+}
+
+div.floatimage
+{
+  border: 5px solid black;
+  display: inline-block;
+  width: 350px;
+  height: 300px;
+  color: white;
+}
+
+div.container
+{
+  text-align: center;
+}
+
+
+
+/*end of folio*/
+
+/*contact-Social*/
+.content{
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  color: #050505;
+  width: 100%;
+  height: 60%;
+  list-style: none;
+
+
+}
+
+.social {
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  color: #050505;
+  width: 100%;
+  height: 60%;
+}
+	.social ul {
+		list-style: none;
+	}
+		.social ul li {
+			float: left; margin: 0 2px 0px 0;
+		}
+			.social ul li a {
+				display: inline;
+        max-width: 40%;
+        max-height: 40%;
+        padding: 5px 5px 5px 5px;
+			}
+
+        .twitter{
+        position: absolute;
+        left: 37%;
+        display:inline;
+        size:40px 40px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .facebook{
+      position: absolute;
+      left: 42%;
+      display:inline;
+      size:40px 40px;
+      width: 40px;
+      height: 40px;
+      }
+
+    .github{
+      position: absolute;
+      left: 47%;
+    display:inline;
+    size:40px 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .gplus{
+    position: absolute;
+    left: 52%;
+  display:inline;
+  size:40px 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin{
+  position: absolute;
+  left: 57%;
+display:inline;
+size:40px 40px;
+width: 40px;
+height: 40px;
+}
+
+.MainQual ul li{
+  list-style-type: none;
+  min-width: 907px;
+  margin: 0;
+  padding: 0;
+ }
+
+ .download{
+   width: 90px;
+   height: 100px;
+ }
